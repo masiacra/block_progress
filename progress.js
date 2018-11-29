@@ -16,6 +16,10 @@ function BlockProgress(options) {
 	this.block.onpaste = function() {
 		return false;
 	};
+	
+	this.block.onsubmit = function() {
+		return false;
+	};
 
 
 };
