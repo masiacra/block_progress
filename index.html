@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Block progress</title>
+	<link href="progress.css" rel="stylesheet">
+</head>
+<body>
+<div class="progress progress__style">
+	
+	<div class="title title__style title__position title__style">
+		Progress
+	</div>
+	<div class="container">
+	<canvas class="indicator indicator__positioning indicator__on transitioned" width="140" 
+		height="140">
+		Тут мог бы быть круг
+	</canvas>
+	</div>
+	<div class="container">
+	<form>
+		<input type="text" class="userValue userValue__positioning" value="10">
+		<label class="clarification clarification__right_side">
+			Value
+		</label>
+	</form>
+	
+	<div class="toggle toggle__off animator animator__positioning transitioned">
+		<div class="commutator commutator__off transitioned off"></div>
+		<div class="explanation explanation__right_side">Animate</div>
+	</div>
+	
+	<div class="toggle toggle__off switcher switcher__positioning transitioned">
+		<div class="commutator commutator__off transitioned off"></div>
+		<div class="explanation explanation__right_side">Hide</div>
+	</div>
+	</div>
+</div>
+
+<script src="progress.js"></script>
+
+</body>
+</html>
